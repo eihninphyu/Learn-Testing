@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Banking.CUI\Banking.CUI.csproj" />
     <ProjectReference Include="..\Banking.Models\Banking.Models.csproj" />
   </ItemGroup>
 

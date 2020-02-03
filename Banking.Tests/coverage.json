@@ -1,1 +1,478 @@
-{}
+{
+  "Banking.CUI.dll": {
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\ConsoleShell.cs": {
+      "Banking.CUI.ConsoleShell": {
+        "System.Void Banking.CUI.ConsoleShell::WriteLine(System.String)": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.ConsoleShell::Write(System.String)": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String Banking.CUI.ConsoleShell::ReadLine()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\CreateAccountView.cs": {
+      "Banking.CUI.CreateAccountView": {
+        "System.Void Banking.CUI.CreateAccountView::ShowContent()": {
+          "Lines": {
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.CreateAccountView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)": {
+          "Lines": {
+            "8": 6,
+            "10": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\DepositView.cs": {
+      "Banking.CUI.DepositView": {
+        "System.Void Banking.CUI.DepositView::ShowContent()": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.DepositView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)": {
+          "Lines": {
+            "8": 4,
+            "10": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\Program.cs": {
+      "Banking.CUI.ProgramApp": {
+        "System.Void Banking.CUI.ProgramApp::Main(System.String[])": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Banking.CUI.ProgramApp::ShowOptions(Banking.CUI.IShell)": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.ProgramApp::ShowDescriptions(Banking.CUI.IShell)": {
+          "Lines": {
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean Banking.CUI.ProgramApp::Run(Banking.Models.IRepository,Banking.CUI.IShell,Banking.Models.IAccountFactory)": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "28": 1,
+            "29": 1,
+            "30": 0,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "35": 0,
+            "36": 1
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 21,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\TransferView.cs": {
+      "Banking.CUI.TransferView": {
+        "System.Void Banking.CUI.TransferView::ShowContent()": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.TransferView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory,Banking.Models.ITransferService)": {
+          "Lines": {
+            "8": 4,
+            "10": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\View.cs": {
+      "Banking.CUI.View": {
+        "System.String Banking.CUI.View::get_Header()": {
+          "Lines": {
+            "4": 14
+          },
+          "Branches": []
+        },
+        "Banking.CUI.IShell Banking.CUI.View::get_Shell()": {
+          "Lines": {
+            "5": 61
+          },
+          "Branches": []
+        },
+        "Banking.Models.IRepository Banking.CUI.View::get_Repository()": {
+          "Lines": {
+            "6": 19
+          },
+          "Branches": []
+        },
+        "Banking.Models.IAccountFactory Banking.CUI.View::get_Factory()": {
+          "Lines": {
+            "7": 15
+          },
+          "Branches": []
+        },
+        "Banking.Models.ITransferService Banking.CUI.View::get_TransferService()": {
+          "Lines": {
+            "8": 3
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.View::Show()": {
+          "Lines": {
+            "23": 5,
+            "24": 5,
+            "25": 5,
+            "26": 5
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.View::ShowHeader()": {
+          "Lines": {
+            "30": 5,
+            "31": 5,
+            "32": 5,
+            "33": 5,
+            "34": 5
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)": {
+          "Lines": {
+            "9": 14,
+            "10": 7,
+            "11": 7,
+            "12": 7,
+            "13": 7,
+            "14": 7
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory,Banking.Models.ITransferService)": {
+          "Lines": {
+            "15": 4,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\ViewFactory.cs": {
+      "Banking.CUI.ViewFactory": {
+        "Banking.CUI.View Banking.CUI.ViewFactory::CreateView(System.Int32,Banking.Models.IRepository,Banking.CUI.IShell,Banking.Models.IAccountFactory)": {
+          "Lines": {
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "9": 4,
+            "11": 2,
+            "13": 2,
+            "15": 2,
+            "17": 0,
+            "19": 5,
+            "20": 5
+          },
+          "Branches": [
+            {
+              "Line": 6,
+              "Offset": 10,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 6,
+              "Offset": 10,
+              "EndOffset": 50,
+              "Path": 2,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 6,
+              "Offset": 10,
+              "EndOffset": 72,
+              "Path": 3,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 6,
+              "Offset": 10,
+              "EndOffset": 89,
+              "Path": 4,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 6,
+              "Offset": 10,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.CUI\\WithdrawalView.cs": {
+      "Banking.CUI.WithdrawalView": {
+        "System.Void Banking.CUI.WithdrawalView::ShowContent()": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        },
+        "System.Void Banking.CUI.WithdrawalView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)": {
+          "Lines": {
+            "8": 4,
+            "10": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Banking.Models.dll": {
+    "d:\\Data\\LearnTDD.Banking\\Banking.Models\\Account.cs": {
+      "Banking.Models.Account": {
+        "System.Int32 Banking.Models.Account::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Banking.Models.Account::get_Balance()": {
+          "Lines": {
+            "11": 20
+          },
+          "Branches": []
+        },
+        "System.Void Banking.Models.Account::WithDrawal(System.Decimal)": {
+          "Lines": {
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "16": 0,
+            "17": 0,
+            "19": 3
+          },
+          "Branches": []
+        },
+        "System.Void Banking.Models.Account::Deposit(System.Decimal)": {
+          "Lines": {
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "24": 0,
+            "25": 0,
+            "27": 2
+          },
+          "Branches": []
+        },
+        "System.Void Banking.Models.Account::.ctor(System.Int32,System.Decimal)": {
+          "Lines": {
+            "6": 12,
+            "7": 6,
+            "8": 6,
+            "9": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.Models\\AccountFactory.cs": {
+      "Banking.Models.AccountFactory": {
+        "Banking.Models.IAccount Banking.Models.AccountFactory::CreateAccount(System.Int32,System.Int32)": {
+          "Lines": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.Models\\Repository.cs": {
+      "Banking.Models.Repository": {
+        "System.String Banking.Models.Repository::get_BasePath()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        },
+        "System.Void Banking.Models.Repository::Save(Banking.Models.IAccount)": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Banking.Models.IAccount Banking.Models.Repository::GetAccount(System.Int32,Banking.Models.IAccountFactory)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 47,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Banking.Models.Repository::.ctor(System.String)": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Data\\LearnTDD.Banking\\Banking.Models\\TransferService.cs": {
+      "Banking.Models.TransferService": {
+        "System.Void Banking.Models.TransferService::Transfer(Banking.Models.IAccount,Banking.Models.IAccount,System.Decimal)": {
+          "Lines": {
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 2,
+            "11": 2,
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

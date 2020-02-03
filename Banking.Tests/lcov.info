@@ -1,0 +1,530 @@
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\App.cs
+FN:12,System.Int32 Banking.CUI.App::GetChoice()
+FNDA:0,System.Int32 Banking.CUI.App::GetChoice()
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:16,System.Void Banking.CUI.App::Run()
+FNDA:0,System.Void Banking.CUI.App::Run()
+DA:17,0
+DA:18,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+BRDA:25,67,1,0
+BRDA:23,35,1,0
+BRDA:23,35,0,0
+BRDA:25,67,0,0
+FN:5,System.Void Banking.CUI.App::.ctor(Banking.CUI.IViewFactory,Banking.CUI.IShell)
+FNDA:0,System.Void Banking.CUI.App::.ctor(Banking.CUI.IViewFactory,Banking.CUI.IShell)
+DA:6,0
+DA:7,0
+DA:8,0
+DA:9,0
+FN:9,System.Void Banking.CUI.App::.ctor(Banking.CUI.IShell)
+FNDA:0,System.Void Banking.CUI.App::.ctor(Banking.CUI.IShell)
+DA:10,0
+DA:11,0
+DA:12,0
+LF:20
+LH:0
+BRF:4
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\ConsoleShell.cs
+FN:4,System.Void Banking.CUI.ConsoleShell::WriteLine(System.String)
+FNDA:0,System.Void Banking.CUI.ConsoleShell::WriteLine(System.String)
+DA:5,0
+FN:5,System.Void Banking.CUI.ConsoleShell::Write(System.String)
+FNDA:0,System.Void Banking.CUI.ConsoleShell::Write(System.String)
+DA:6,0
+FN:6,System.String Banking.CUI.ConsoleShell::ReadLine()
+FNDA:0,System.String Banking.CUI.ConsoleShell::ReadLine()
+DA:7,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\CreateAccountView.cs
+FN:10,System.Void Banking.CUI.CreateAccountView::ShowContent()
+FNDA:0,System.Void Banking.CUI.CreateAccountView::ShowContent()
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+FN:7,System.Void Banking.CUI.CreateAccountView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+FNDA:0,System.Void Banking.CUI.CreateAccountView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+DA:8,0
+DA:10,0
+LF:13
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\DepositView.cs
+FN:10,System.Void Banking.CUI.DepositView::ShowContent()
+FNDA:0,System.Void Banking.CUI.DepositView::ShowContent()
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+FN:7,System.Void Banking.CUI.DepositView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+FNDA:0,System.Void Banking.CUI.DepositView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+DA:8,0
+DA:10,0
+LF:14
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\InvalidView.cs
+FN:10,System.Void Banking.CUI.InvalidView::ShowContent()
+FNDA:0,System.Void Banking.CUI.InvalidView::ShowContent()
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+FN:7,System.Void Banking.CUI.InvalidView::.ctor(System.String,Banking.CUI.IShell)
+FNDA:0,System.Void Banking.CUI.InvalidView::.ctor(System.String,Banking.CUI.IShell)
+DA:8,0
+DA:10,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\OptionView.cs
+FN:10,System.Void Banking.CUI.OptionsView::ShowContent()
+FNDA:0,System.Void Banking.CUI.OptionsView::ShowContent()
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+FN:7,System.Void Banking.CUI.OptionsView::.ctor(System.String,Banking.CUI.IShell)
+FNDA:0,System.Void Banking.CUI.OptionsView::.ctor(System.String,Banking.CUI.IShell)
+DA:8,0
+DA:10,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\Program.cs
+FN:7,System.Void Banking.CUI.ProgramApp::Main(System.String[])
+FNDA:0,System.Void Banking.CUI.ProgramApp::Main(System.String[])
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\TransferView.cs
+FN:10,System.Void Banking.CUI.TransferView::ShowContent()
+FNDA:0,System.Void Banking.CUI.TransferView::ShowContent()
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+FN:7,System.Void Banking.CUI.TransferView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory,Banking.Models.ITransferService)
+FNDA:0,System.Void Banking.CUI.TransferView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory,Banking.Models.ITransferService)
+DA:8,0
+DA:10,0
+LF:18
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\View.cs
+FN:3,System.String Banking.CUI.View::get_Header()
+FNDA:0,System.String Banking.CUI.View::get_Header()
+DA:4,0
+FN:4,Banking.CUI.IShell Banking.CUI.View::get_Shell()
+FNDA:0,Banking.CUI.IShell Banking.CUI.View::get_Shell()
+DA:5,0
+FN:5,Banking.Models.IRepository Banking.CUI.View::get_Repository()
+FNDA:0,Banking.Models.IRepository Banking.CUI.View::get_Repository()
+DA:6,0
+FN:6,Banking.Models.IAccountFactory Banking.CUI.View::get_Factory()
+FNDA:0,Banking.Models.IAccountFactory Banking.CUI.View::get_Factory()
+DA:7,0
+FN:7,Banking.Models.ITransferService Banking.CUI.View::get_TransferService()
+FNDA:0,Banking.Models.ITransferService Banking.CUI.View::get_TransferService()
+DA:8,0
+FN:26,System.Void Banking.CUI.View::Show()
+FNDA:0,System.Void Banking.CUI.View::Show()
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+FN:33,System.Void Banking.CUI.View::ShowHeader()
+FNDA:0,System.Void Banking.CUI.View::ShowHeader()
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+FN:8,System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell)
+FNDA:0,System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+FN:12,System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+FNDA:0,System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:18,System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory,Banking.Models.ITransferService)
+FNDA:0,System.Void Banking.CUI.View::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory,Banking.Models.ITransferService)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+LF:31
+LH:0
+BRF:0
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\ViewFactory.cs
+FN:3,Banking.Models.IRepository Banking.CUI.ViewFactory::get_Repository()
+FNDA:0,Banking.Models.IRepository Banking.CUI.ViewFactory::get_Repository()
+DA:4,0
+FN:4,Banking.CUI.IShell Banking.CUI.ViewFactory::get_ConsoleShell()
+FNDA:0,Banking.CUI.IShell Banking.CUI.ViewFactory::get_ConsoleShell()
+DA:5,0
+FN:5,Banking.Models.IAccountFactory Banking.CUI.ViewFactory::get_AccountFactory()
+FNDA:0,Banking.Models.IAccountFactory Banking.CUI.ViewFactory::get_AccountFactory()
+DA:6,0
+FN:6,Banking.Models.ITransferService Banking.CUI.ViewFactory::get_TransferService()
+FNDA:0,Banking.Models.ITransferService Banking.CUI.ViewFactory::get_TransferService()
+DA:7,0
+FN:18,Banking.CUI.View Banking.CUI.ViewFactory::CreateView(System.Int32)
+FNDA:0,Banking.CUI.View Banking.CUI.ViewFactory::CreateView(System.Int32)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:24,0
+DA:26,0
+DA:28,0
+DA:30,0
+DA:32,0
+DA:34,0
+DA:36,0
+DA:37,0
+BRDA:21,23,1,0
+BRDA:21,23,2,0
+BRDA:21,23,3,0
+BRDA:21,23,4,0
+BRDA:21,23,5,0
+BRDA:21,23,0,0
+FN:7,System.Void Banking.CUI.ViewFactory::.ctor(Banking.Models.IRepository,Banking.CUI.IShell,Banking.Models.IAccountFactory)
+FNDA:0,System.Void Banking.CUI.ViewFactory::.ctor(Banking.Models.IRepository,Banking.CUI.IShell,Banking.Models.IAccountFactory)
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+FN:12,System.Void Banking.CUI.ViewFactory::.ctor(Banking.Models.IRepository,Banking.CUI.IShell,Banking.Models.IAccountFactory,Banking.Models.ITransferService)
+FNDA:0,System.Void Banking.CUI.ViewFactory::.ctor(Banking.Models.IRepository,Banking.CUI.IShell,Banking.Models.IAccountFactory,Banking.Models.ITransferService)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+LF:26
+LH:0
+BRF:6
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.CUI\WithdrawalView.cs
+FN:10,System.Void Banking.CUI.WithdrawalView::ShowContent()
+FNDA:0,System.Void Banking.CUI.WithdrawalView::ShowContent()
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+FN:7,System.Void Banking.CUI.WithdrawalView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+FNDA:0,System.Void Banking.CUI.WithdrawalView::.ctor(System.String,Banking.CUI.IShell,Banking.Models.IRepository,Banking.Models.IAccountFactory)
+DA:8,0
+DA:10,0
+LF:14
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\Account.cs
+FN:22,System.Int32 Banking.Models.Account::get_Id()
+FNDA:0,System.Int32 Banking.Models.Account::get_Id()
+DA:23,0
+FN:23,System.Decimal Banking.Models.Account::get_Balance()
+FNDA:0,System.Decimal Banking.Models.Account::get_Balance()
+DA:24,0
+BRDA:24,13,0,0
+BRDA:24,13,1,0
+FN:24,System.Collections.Generic.List`1<Banking.Models.Transaction> Banking.Models.Account::get_Transactions()
+FNDA:0,System.Collections.Generic.List`1<Banking.Models.Transaction> Banking.Models.Account::get_Transactions()
+DA:25,0
+FN:27,System.Void Banking.Models.Account::WithDrawal(System.Decimal)
+FNDA:0,System.Void Banking.Models.Account::WithDrawal(System.Decimal)
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+FN:39,System.Void Banking.Models.Account::Deposit(System.Decimal)
+FNDA:0,System.Void Banking.Models.Account::Deposit(System.Decimal)
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+FN:8,System.Void Banking.Models.Account::.ctor(System.Int32,System.Decimal)
+FNDA:0,System.Void Banking.Models.Account::.ctor(System.Int32,System.Decimal)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:17,System.Void Banking.Models.Account::.ctor(System.Int32,System.Collections.Generic.List`1<Banking.Models.Transaction>)
+FNDA:0,System.Void Banking.Models.Account::.ctor(System.Int32,System.Collections.Generic.List`1<Banking.Models.Transaction>)
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+LF:34
+LH:0
+BRF:2
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\AccountDTO.cs
+FN:4,System.Int32 Banking.Models.AccountDTO::get_Id()
+FNDA:0,System.Int32 Banking.Models.AccountDTO::get_Id()
+DA:5,0
+FN:5,System.Decimal Banking.Models.AccountDTO::get_Balance()
+FNDA:0,System.Decimal Banking.Models.AccountDTO::get_Balance()
+DA:6,0
+FN:6,System.Collections.Generic.List`1<Banking.Models.Transaction> Banking.Models.AccountDTO::get_Transactions()
+FNDA:0,System.Collections.Generic.List`1<Banking.Models.Transaction> Banking.Models.AccountDTO::get_Transactions()
+DA:7,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\AccountFactory.cs
+FN:4,Banking.Models.IAccount Banking.Models.AccountFactory::CreateAccount(Banking.Models.AccountDTO)
+FNDA:0,Banking.Models.IAccount Banking.Models.AccountFactory::CreateAccount(Banking.Models.AccountDTO)
+DA:5,0
+DA:6,0
+DA:7,0
+FN:7,Banking.Models.IAccount Banking.Models.AccountFactory::CreateAccount(System.Int32,System.Decimal)
+FNDA:0,Banking.Models.IAccount Banking.Models.AccountFactory::CreateAccount(System.Int32,System.Decimal)
+DA:8,0
+DA:9,0
+DA:10,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\MyFile.cs
+FN:4,System.Void Banking.Models.MyFile::WriteAllText(System.String,System.String)
+FNDA:0,System.Void Banking.Models.MyFile::WriteAllText(System.String,System.String)
+DA:5,0
+DA:6,0
+DA:7,0
+FN:7,System.String Banking.Models.MyFile::ReadAllText(System.String)
+FNDA:0,System.String Banking.Models.MyFile::ReadAllText(System.String)
+DA:8,0
+DA:9,0
+DA:10,0
+FN:10,System.Boolean Banking.Models.MyFile::Exists(System.String)
+FNDA:0,System.Boolean Banking.Models.MyFile::Exists(System.String)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\NotEnoughBalanceException.cs
+FN:4,System.Decimal Banking.Models.NotEnoughBalanceException::get_CurrentBalance()
+FNDA:0,System.Decimal Banking.Models.NotEnoughBalanceException::get_CurrentBalance()
+DA:5,0
+FN:5,System.Void Banking.Models.NotEnoughBalanceException::.ctor(System.Decimal)
+FNDA:0,System.Void Banking.Models.NotEnoughBalanceException::.ctor(System.Decimal)
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\Repository.cs
+FN:4,System.String Banking.Models.Repository::get_BasePath()
+FNDA:0,System.String Banking.Models.Repository::get_BasePath()
+DA:5,0
+FN:7,System.Void Banking.Models.Repository::Save(Banking.Models.IAccount)
+FNDA:0,System.Void Banking.Models.Repository::Save(Banking.Models.IAccount)
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+FN:11,Banking.Models.IAccount Banking.Models.Repository::GetAccount(System.Int32,Banking.Models.IAccountFactory)
+FNDA:0,Banking.Models.IAccount Banking.Models.Repository::GetAccount(System.Int32,Banking.Models.IAccountFactory)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:20,0
+DA:21,0
+BRDA:14,53,0,0
+BRDA:14,53,1,0
+FN:6,System.Void Banking.Models.Repository::.ctor(System.String,Banking.Models.IFile)
+FNDA:0,System.Void Banking.Models.Repository::.ctor(System.String,Banking.Models.IFile)
+DA:7,0
+LF:15
+LH:0
+BRF:2
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\Transaction.cs
+FN:4,System.DateTime Banking.Models.Transaction::get_Date()
+FNDA:0,System.DateTime Banking.Models.Transaction::get_Date()
+DA:5,0
+FN:5,System.Decimal Banking.Models.Transaction::get_Amount()
+FNDA:0,System.Decimal Banking.Models.Transaction::get_Amount()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:d:\Data\LearnTDD.Banking\Banking.Models\TransferService.cs
+FN:6,System.Void Banking.Models.TransferService::Transfer(Banking.Models.IAccount,Banking.Models.IAccount,System.Decimal)
+FNDA:0,System.Void Banking.Models.TransferService::Transfer(Banking.Models.IAccount,Banking.Models.IAccount,System.Decimal)
+DA:7,0
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
